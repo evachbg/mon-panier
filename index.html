@@ -1,31 +1,47 @@
-<link rel="stylesheet" href="styles.css">
-<body>
-    <div>
-        <h1>Mon panier</h1> 
-        <a href="www.google.fr">Vider le panier</a>
-     </div>
-     <div>
-         <img src="assets/produit.jpg" alt=""> <p></p>
-         <txt>Eodem tempore Serenianus ex duce, cuius ignavia populatam in Phoenice Celsen ante rettulimus, pulsatae maiestatis imperii reus iure postulatus ac lege, incertum qua potuit suffragatione absolvi, aperte convictus</txt>
-     </div>
-    <div>
-        <section class="Article">
-            <h2>Article 1</h2>
-            <txt>1x Lorem ipsum dolor sit amet, consectetur adipiscing elit.</txt>
-            <txt id="price">2.50€</txt>
+  
+<html>
+    <head>
+        <title>TP</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header>
+                <h1>Mon panier</h1>
+                <a href="#">Vider le panier</a>
+        </header>
+        <section class="content"> 
+            <img src="assets/produit.jpg">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit malesuada nec odio et urna, risus. Magna blandit cras iaculis volutpat quisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </section>
-        <section>
-            <h2>Article 2</h2>
-            <txt>1x Lorem ipsum dolor sit amet, consectetur adipiscing elit.</txt>
-            <txt id="price">2.50€</txt>
+        <section class="list">
+            <div class="l-item" id="item1">
+                <div class="li-header">
+                    <h3>Article 1</h3>
+                    <p>2.55€</p>
+                </div>
+                <p class="li-text">1x Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="l-item" id="item2">
+                <div class="li-header">
+                    <h3>Article 2</h3>
+                    <p>2.55€</p>
+                </div>
+                <p class="li-text">1x Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="l-item" id="item3">
+                <div class="li-header">
+                    <h3>Article 3</h3>
+                    <p>2.55€</p>
+                </div>
+                <p class="li-text">1x Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
         </section>
-            <section>
-            <h2>Article 3</h2>
-            <txt>1x Lorem ipsum dolor sit amet, consectetur adipiscing elit.</txt>
-            <txt id="price">2.50€</txt>
-        </section>
-        <p></p>
-        <txt id="total">154 €</txt>
-        <button id="valid">Valider mon panier</button>
-    </div>
-</body>
+        <footer>
+            <p class="f-totalamount">154€</p>
+            <button class="f-action" type="button"> Valider mon panier </button>
+        </footer>
+    </body>
+</html>

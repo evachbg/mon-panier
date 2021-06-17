@@ -1,0 +1,75 @@
+html,body{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section, header, footer{
+    max-width: 450px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+}
+header h1{
+    color: blue;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    }
+header a{
+    margin-left: auto;
+    color: crimson;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+section.content{
+    max-width: 450px;
+    margin: auto;
+    font-size: 16px;
+}
+.content img{
+      margin: auto;
+}
+.content p{
+    max-width: 450px;
+    margin: auto;
+    font-family: "Gill Sans", sans-serif;
+}
+
+section.list{
+    
+}
+.list .l-item{
+    max-width: 350px;
+    margin: auto;
+}
+.l-item .li-header{
+    display: flex;
+    align-items: center;
+    font-family: "Gill Sans", sans-serif;
+}
+.l-item .li-header h3{}
+.l-item .li-header p{
+    color: darkblue;
+    margin-left: auto;
+    font-family: "Gill Sans", sans-serif;
+}
+.l-item .li-text{}
+
+footer{
+    display: flex;
+    align-items: center;
+    max-width: 450px;
+}
+footer p{
+    font-size: 30px;
+    color: blue;
+    font-family: "Roboto", sans-serif;
+}
+footer button{
+      align-items: right;
+}
