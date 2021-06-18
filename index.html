@@ -1,4 +1,3 @@
-  
 <html>
     <head>
         <title>TP</title>
@@ -8,40 +7,104 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        <header>
-                <h1>Mon panier</h1>
-                <a href="#">Vider le panier</a>
-        </header>
-        <section class="content"> 
-            <img src="assets/produit.jpg">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit malesuada nec odio et urna, risus. Magna blandit cras iaculis volutpat quisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </section>
-        <section class="list">
-            <div class="l-item" id="item1">
-                <div class="li-header">
-                    <h3>Article 1</h3>
-                    <p>2.55€</p>
-                </div>
-                <p class="li-text">1x Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="l-item" id="item2">
-                <div class="li-header">
-                    <h3>Article 2</h3>
-                    <p>2.55€</p>
-                </div>
-                <p class="li-text">1x Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="l-item" id="item3">
-                <div class="li-header">
-                    <h3>Article 3</h3>
-                    <p>2.55€</p>
-                </div>
-                <p class="li-text">1x Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-        </section>
-        <footer>
-            <p class="f-totalamount">154€</p>
-            <button class="f-action" type="button"> Valider mon panier </button>
-        </footer>
+        <div class="container">
+            <main class="selectproduct">
+                <section class="s-list">
+                    <div class="sl-item">
+                    </div>
+                    <div class="sl-item">
+                    </div>
+                    <div class="sl-item">
+                    </div>
+                    <div class="sl-item">
+                    </div>
+                    <div class="sl-item">
+                    </div>
+                    <div class="sl-item">
+                    </div>
+                </section>
+    
+                <section class="choice">
+                    <div class="productone">
+                        <label for="product-select">Produit</label>
+                        <select name="product" id="product-select">
+                            <option value="">Choisir un produit à ajouter au panier</option>
+                            <option value="tshirt">Tee-Shirt</option>
+                            <option value="sweat">Sweat</option>
+                            <option value="pants">Pants</option>
+                        </select>
+                    </div>
+    
+                    <div class="sizeone">
+                        <label for="size-select">Taille</label>
+                        <select name="size" id="size-select">
+                            <option value="l">L</option>
+                            <option value="m">M</option>
+                            <option value="s">S</option>
+                        </select>
+                    </div>
+    
+                    <div class="colorone">
+                        <label for="color-select">Couleur</label>
+                        <select name="color" id="color-select">
+                            <option value="">Choisir une couleur</option>
+                            <option value="blue">Bleu</option>
+                            <option value="red">Rouge</option>
+                            <option value="green">Vert</option>
+                        </select>
+                    </div>
+    
+                    <div class="commentaryone">
+                        <label for="commentary">Commentaire</label>
+                        <input type="text" id="commentary" placeholder="Ajouter un commentaire">
+                    </div>
+                </section>
+    
+                <footer>
+                    <p class="f-totalamount">34.99€</p>
+                    <button class="f-action" type="button"> Ajouter au panier</button>
+                </footer>
+    
+    
+            </main>
+    
+            <aside class="sidebar">
+                <header>
+                        <h1>Mon panier</h1>
+                        <a href="#">Vider le panier</a>
+                </header>
+                <section class="content"> 
+                    <img src="assets/produit.jpg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit malesuada nec odio et urna, risus. Magna blandit cras iaculis volutpat quisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </section>
+                <section class="list">
+                    <div class="l-item" id="item1">
+                        <div class="li-header">
+                            <h3>Article 1</h3>
+                            <p>2.55€</p>
+                        </div>
+                        <p class="li-text">1x Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="l-item" id="item2">
+                        <div class="li-header">
+                            <h3>Article 2</h3>
+                            <p>2.55€</p>
+                        </div>
+                        <p class="li-text">1x Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="l-item" id="item3">
+                        <div class="li-header">
+                            <h3>Article 3</h3>
+                            <p>2.55€</p>
+                        </div>
+                        <p class="li-text">1x Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </section>
+                <footer>
+                    <p class="f-totalamount">154€</p>
+                    <button class="f-action" type="button"> Valider mon panier </button>
+                </footer>
+            </aside>
+        </div>
     </body>
 </html>
