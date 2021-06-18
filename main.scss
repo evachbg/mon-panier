@@ -24,6 +24,10 @@ html, body{
 .selectproduct{
     margin-right: auto;
     width: 809px;
+    @media screen and (max-width: 1200px) {
+        width: 100%;
+        justify-content: center;
+    }
 
     .s-list{
         width: 618px;
@@ -33,7 +37,8 @@ html, body{
         align-content: center;
         flex-wrap:  wrap ;
         @media screen and (max-width: 1200px) {
-            flex-direction: column;
+            width: 100%;
+            flex-direction: row;
         }
 
         .sl-item{
@@ -42,6 +47,10 @@ html, body{
         margin:15px;
         width : 176px;
         height : 176px;
+        @media screen and (max-width: 1200px) {
+            width : 150px;
+            height : 150px;
+        }
         }
     }
 
@@ -269,5 +278,52 @@ html, body{
             border-radius : 2px;
             border:none;
         }
+    }
+}
+
+.containershopping{
+    display: flex;
+    justify-content: center;
+    height : 100%;
+    background-color: #F6F9FE;
+
+    .illustration{
+        margin-right: auto;
+        width: 50%;
+        background-image: url("assets/guy.png");
+        background-size: cover;
+        background-position: right 25% bottom 15%;
+    }
+
+    .validation{
+        margin-left: auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+
+        footer{
+            text-align: center;
+            margin : auto;
+            width: 450px;
+
+                p {
+                    font-size: 40;
+                    margin-right: auto;
+                    margin-bottom : 54px;
+                }
+
+                button {
+                    margin-left: auto;
+                    width : 367;
+                    height: 39;
+                    background-color: $buttoncolor;
+                    font-size : 25;
+                    color:white;
+                    border-radius : 2px;
+                    border:none;
+                }
+            }
     }
 }

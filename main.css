@@ -31,6 +31,15 @@ html, body {
   width: 809px;
 }
 
+@media screen and (max-width: 1200px) {
+  .selectproduct {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .selectproduct .s-list {
   width: 618px;
   margin: 40px auto;
@@ -48,10 +57,11 @@ html, body {
 
 @media screen and (max-width: 1200px) {
   .selectproduct .s-list {
-    -webkit-box-orient: vertical;
+    width: 100%;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 
@@ -61,6 +71,13 @@ html, body {
   margin: 15px;
   width: 176px;
   height: 176px;
+}
+
+@media screen and (max-width: 1200px) {
+  .selectproduct .s-list .sl-item {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 .selectproduct .choice {
@@ -300,6 +317,66 @@ html, body {
 .sidebar footer button {
   margin-left: auto;
   width: 267;
+  height: 39;
+  background-color: #FDBE83;
+  font-size: 25;
+  color: white;
+  border-radius: 2px;
+  border: none;
+}
+
+.containershopping {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  background-color: #F6F9FE;
+}
+
+.containershopping .illustration {
+  margin-right: auto;
+  width: 50%;
+  background-image: url("assets/guy.png");
+  background-size: cover;
+  background-position: right 25% bottom 15%;
+}
+
+.containershopping .validation {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.containershopping .validation footer {
+  text-align: center;
+  margin: auto;
+  width: 450px;
+}
+
+.containershopping .validation footer p {
+  font-size: 40;
+  margin-right: auto;
+  margin-bottom: 54px;
+}
+
+.containershopping .validation footer button {
+  margin-left: auto;
+  width: 367;
   height: 39;
   background-color: #FDBE83;
   font-size: 25;

@@ -1,0 +1,43 @@
+html, body {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  text-align: center;
+}
+
+.container .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .list .bloc {
+  width: 150px;
+  height: 150px;
+  background-color: lightsalmon;
+  margin: 10px;
+}
+
+.container .actions button {
+  border: none;
+  background: #188ae6;
+  color: #ffffff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-transform: uppercase;
+  padding: 8px 18px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=test.css.map */
