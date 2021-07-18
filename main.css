@@ -340,8 +340,8 @@ html, body {
   margin-right: auto;
   width: 50%;
   background-image: url("assets/guy.png");
-  background-size: cover;
-  background-position: right 25% bottom 15%;
+  background-size: auto;
+  background-position: right 25% bottom 15% top 10%;
 }
 
 .containershopping .validation {

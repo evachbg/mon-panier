@@ -4,7 +4,7 @@ $tercary : #4C5E80;
 $buttoncolor : #FDBE83;
 
 html, body{
-    font-size: 16px;
+    font-size: 18px;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -54,7 +54,7 @@ html, body{
         }
     }
 
-    .choice {
+    #form-cart {
         color : #2F4258;
         max-width: 618px;
         margin: auto;
@@ -64,7 +64,7 @@ html, body{
         align-content: center;
         flex-wrap:  wrap ;
 
-        .productone{
+        .product-name {
             width: 588px;
             margin: 0 0 20 0px;
 
@@ -80,12 +80,12 @@ html, body{
                 border-color: #E9F0FB;
             }
 
-            #product-select{
+            #product{
                 width: 588px;
             }
         }
 
-        .sizeone{
+        .product-size{
                 width: 76px;
                 margin: 0 15 20 0px;
     
@@ -101,12 +101,12 @@ html, body{
                     border-color: #E9F0FB;
                 }
     
-                #size-select{
+                #size{
                     width: 76px;
                 }
         }
 
-        .colorone{
+        .product-color {
                 width: 240px;
                 margin: 0 0 20 15px;
     
@@ -122,12 +122,12 @@ html, body{
                     border-color: #E9F0FB;
                 }
     
-                #color-select{
+                #color{
                     width: 240px;
                 }
         }
 
-        .commentaryone{
+        .product-commentary{
                 width: 588px;
     
                 label{
@@ -220,7 +220,7 @@ html, body{
 
     }
 
-    .list{
+    #list{
         margin : auto;
 
         .l-item {
@@ -285,17 +285,17 @@ html, body{
     display: flex;
     justify-content: center;
     height : 100%;
-    background-color: #F6F9FE;
 
     .illustration{
         margin-right: auto;
         width: 50%;
-        background-image: url("assets/guy.png");
+        background-image: url("assets/img/shoppingcart.jpg");
         background-size: cover;
         background-position: right 25% bottom 15%;
     }
 
     .validation{
+        background-color: white;
         margin-left: auto;
         display:flex;
         justify-content: center;
@@ -307,13 +307,13 @@ html, body{
             text-align: center;
             margin : auto;
             width: 450px;
-
+        
                 p {
                     font-size: 40;
                     margin-right: auto;
                     margin-bottom : 54px;
                 }
-
+        
                 button {
                     margin-left: auto;
                     width : 367;
